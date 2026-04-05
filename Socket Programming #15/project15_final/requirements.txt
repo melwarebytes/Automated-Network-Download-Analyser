@@ -1,0 +1,22 @@
+# Python 3.8+ required
+
+# Optional: For SSL certificate generation
+# Only needed if you want to auto-generate certificates
+# Otherwise, use openssl command-line tool
+cryptography>=41.0.0
+
+# Optional: For visualization generation (graphs/charts)
+# If not installed, only text-based reports will be generated
+matplotlib>=3.7.0
+
+# All other dependencies are Python built-ins:
+# - socket (TCP socket programming)
+# - ssl (SSL/TLS encryption)
+# - threading (concurrent client support)
+# - json (results storage)
+# - hashlib (MD5 checksums)
+# - time, datetime (timing and scheduling)
+# - os, sys (file system operations)
+# - argparse (command-line interface)
+# - statistics (performance analysis)
+# - urllib.parse (URL parsing)
