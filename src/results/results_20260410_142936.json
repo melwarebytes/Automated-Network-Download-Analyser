@@ -1,0 +1,70 @@
+{
+  "session_id": "20260410_142936",
+  "timestamp": "2026-04-10T14:30:12.887145",
+  "configuration": {
+    "url": "https://localhost:8443/testfile",
+    "hostname": "localhost",
+    "port": 8443,
+    "ssl_enabled": true,
+    "udp_control_enabled": true,
+    "udp_file_transfer": true,
+    "download_interval": 30,
+    "total_duration": 60,
+    "timeout": 300
+  },
+  "statistics": {
+    "total_downloads": 2,
+    "successful_downloads": 2,
+    "failed_downloads": 0,
+    "udp_transfers": 2,
+    "success_rate": 100.0
+  },
+  "results": [
+    {
+      "timestamp": "2026-04-10T14:29:36.420300",
+      "url": "https://localhost:8443/testfile",
+      "hostname": "localhost",
+      "port": 8443,
+      "ssl_enabled": true,
+      "udp_transfer": true,
+      "success": true,
+      "status_code": null,
+      "file_size_bytes": 52428800,
+      "download_time_seconds": 3.4785537719726562,
+      "connection_time_ms": 3478.5537719726562,
+      "ssl_handshake_time_ms": 0,
+      "download_speed_bps": 120576086.35503277,
+      "download_speed_mbps": 120.57608635503277,
+      "md5_checksum": "f9bdebc2e4143ceabcf3c794365d3995",
+      "packets_expected": 37450,
+      "packets_received": 37450,
+      "packets_retransmitted": 7716,
+      "udp_retries": 3,
+      "error": null,
+      "error_type": null
+    },
+    {
+      "timestamp": "2026-04-10T14:30:10.183799",
+      "url": "https://localhost:8443/testfile",
+      "hostname": "localhost",
+      "port": 8443,
+      "ssl_enabled": true,
+      "udp_transfer": true,
+      "success": true,
+      "status_code": null,
+      "file_size_bytes": 52428800,
+      "download_time_seconds": 2.529676675796509,
+      "connection_time_ms": 2529.676675796509,
+      "ssl_handshake_time_ms": 0,
+      "download_speed_bps": 165803955.90196747,
+      "download_speed_mbps": 165.80395590196747,
+      "md5_checksum": "f9bdebc2e4143ceabcf3c794365d3995",
+      "packets_expected": 37450,
+      "packets_received": 37450,
+      "packets_retransmitted": 8152,
+      "udp_retries": 2,
+      "error": null,
+      "error_type": null
+    }
+  ]
+}

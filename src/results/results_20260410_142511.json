@@ -1,0 +1,42 @@
+{
+  "session_id": "20260410_142511",
+  "timestamp": "2026-04-10T14:25:33.045332",
+  "configuration": {
+    "url": "https://localhost:8443/testfile",
+    "hostname": "localhost",
+    "port": 8443,
+    "ssl_enabled": true,
+    "udp_control_enabled": true,
+    "udp_file_transfer": false,
+    "download_interval": 30,
+    "total_duration": 60,
+    "timeout": 300
+  },
+  "statistics": {
+    "total_downloads": 1,
+    "successful_downloads": 0,
+    "failed_downloads": 1,
+    "udp_transfers": 0,
+    "success_rate": 0.0
+  },
+  "results": [
+    {
+      "timestamp": "2026-04-10T14:25:11.513337",
+      "url": "https://localhost:8443/testfile",
+      "hostname": "localhost",
+      "port": 8443,
+      "ssl_enabled": true,
+      "success": false,
+      "status_code": null,
+      "file_size_bytes": 0,
+      "download_time_seconds": 0,
+      "connection_time_ms": 0,
+      "ssl_handshake_time_ms": 0,
+      "download_speed_bps": 0,
+      "download_speed_mbps": 0,
+      "md5_checksum": null,
+      "error": "Connection refused",
+      "error_type": "connection_refused"
+    }
+  ]
+}

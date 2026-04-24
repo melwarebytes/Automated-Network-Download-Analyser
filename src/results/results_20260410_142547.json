@@ -1,0 +1,42 @@
+{
+  "session_id": "20260410_142547",
+  "timestamp": "2026-04-10T14:26:54.628339",
+  "configuration": {
+    "url": "https://localhost:8443/testfile",
+    "hostname": "localhost",
+    "port": 8443,
+    "ssl_enabled": true,
+    "udp_control_enabled": true,
+    "udp_file_transfer": false,
+    "download_interval": 30,
+    "total_duration": 60,
+    "timeout": 300
+  },
+  "statistics": {
+    "total_downloads": 1,
+    "successful_downloads": 1,
+    "failed_downloads": 0,
+    "udp_transfers": 0,
+    "success_rate": 100.0
+  },
+  "results": [
+    {
+      "timestamp": "2026-04-10T14:25:47.436763",
+      "url": "https://localhost:8443/testfile",
+      "hostname": "localhost",
+      "port": 8443,
+      "ssl_enabled": true,
+      "success": true,
+      "status_code": 200,
+      "file_size_bytes": 52428800,
+      "download_time_seconds": 36.98005557060242,
+      "connection_time_ms": 0.19025802612304688,
+      "ssl_handshake_time_ms": 27.95577049255371,
+      "download_speed_bps": 11342070.570965542,
+      "download_speed_mbps": 11.342070570965541,
+      "md5_checksum": "f9bdebc2e4143ceabcf3c794365d3995",
+      "error": null,
+      "error_type": null
+    }
+  ]
+}
